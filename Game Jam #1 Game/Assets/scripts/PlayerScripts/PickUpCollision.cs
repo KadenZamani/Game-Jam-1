@@ -13,13 +13,13 @@ public class TranslateMove : MonoBehaviour
     void Start()
     {
         scoreCount = 0;
-        scoreText.text = "Score: " + scoreCount;
+        scoreText.text = "Mushrooms: " + scoreCount + "/30";
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(scoreCount >= targetScore)
+        if (scoreCount >= targetScore)
         {
             SceneManager.LoadScene(4);
         }
@@ -30,7 +30,7 @@ public class TranslateMove : MonoBehaviour
         {
             other.gameObject.SetActive(false);
             scoreCount = scoreCount + 1;
-            scoreText.text = "Score: " + scoreCount;
+            scoreText.text = "Mushrooms: " + scoreCount + "/30";
             audioSource.Play();
         }
     }
