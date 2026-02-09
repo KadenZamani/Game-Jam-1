@@ -1,11 +1,13 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class TranslateMove : MonoBehaviour
 {
     [SerializeField] private float speed;
     [SerializeField] AudioSource audioSource;
     public TextMeshProUGUI scoreText;
+    [SerializeField] private int targetScore;
     private int scoreCount;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,7 +19,10 @@ public class TranslateMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-    
+        if(scoreCount >= targetScore)
+        {
+            SceneManager.LoadScene(4);
+        }
     }
     void OnTriggerEnter(Collider other)
     {
