@@ -10378,7 +10378,7 @@ GameObject:
   - component: {fileID: 551147903}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31402,8 +31402,7 @@ MeshRenderer:
   m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 219851e7794c4b446868c6beb7c328b5, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39251,6 +39250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa84f54a5d65c3d499c2b96541fda38a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::KillBoxScript
+  respawnPoint: {fileID: 1606769228}
 --- !u!65 &2010190188
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -39296,8 +39296,7 @@ MeshRenderer:
   m_MeshLodSelectionBias: 0
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: 39949cf0004177c48a5638e1b43b81d8, type: 2}
+  m_Materials: []
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
