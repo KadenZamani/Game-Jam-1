@@ -3,7 +3,7 @@ using TMPro;
 using UnityEngine.SceneManagement;
 public class TimerManager : MonoBehaviour
 {
-    public float timeRemaining = 60f;
+    public float timeRemaining = 120f;
     public bool timerIsRunning = false;
     public TextMeshProUGUI TimerText; 
 

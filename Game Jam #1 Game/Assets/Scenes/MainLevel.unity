@@ -425,7 +425,7 @@ Transform:
   m_GameObject: {fileID: 14076149}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.05604, y: 0, z: -2.4887304}
+  m_LocalPosition: {x: 3.05604, y: 1.54, z: -2.4887304}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -36665,7 +36665,7 @@ Transform:
   m_GameObject: {fileID: 1606769228}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.0065408, y: 1.4999995, z: 2.5335126}
+  m_LocalPosition: {x: -3.0065408, y: 3.64, z: 2.5335126}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -49103,6 +49103,10 @@ PrefabInstance:
       propertyPath: TimerText
       value: 
       objectReference: {fileID: 1440903033}
+    - target: {fileID: 8769956958563186732, guid: 548795fd2bcd79f49a650639c8e15baa, type: 3}
+      propertyPath: timeRemaining
+      value: 120
+      objectReference: {fileID: 0}
     - target: {fileID: 9122408821164936190, guid: 548795fd2bcd79f49a650639c8e15baa, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.0405755
